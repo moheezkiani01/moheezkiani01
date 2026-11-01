@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="900" height="170">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111c35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="170" rx="12" fill="url(#bgGradient)"/>
+  <rect width="900" height="170" rx="12" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="899" height="169" rx="11.5" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <rect x="36" y="15" width="120" height="2" fill="url(#accentLine)" rx="1"/>
+
+  <g transform="translate(36, 42)">
+    <rect width="180" height="22" rx="11" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="12" cy="11" r="3.5" fill="#10b981"/>
+    <text x="22" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">ENGINEERING PORTFOLIO</text>
+  </g>
+
+  <text x="36" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#f8fafc" letter-spacing="-0.5">Moheez Azam Kiani</text>
+  
+  <text x="36" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#94a3b8">AI/ML Developer <tspan fill="#475569">·</tspan> Backend Engineering <tspan fill="#475569">·</tspan> Applied Intelligent Systems</text>
+
+  <g transform="translate(36, 148)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#64748b">
+      BS Artificial Intelligence, Superior University ('28) <tspan fill="#334155">·</tspan> Python · FastAPI · PyTorch · RAG · PostgreSQL <tspan fill="#334155">·</tspan> Lahore, PK
+    </text>
+  </g>
+</svg>
